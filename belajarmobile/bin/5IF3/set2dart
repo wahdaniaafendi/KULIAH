@@ -1,0 +1,9 @@
+void main(List<String>args) {
+  Set<dynamic> nama = {"Wahda, Serly, Salwan"};
+
+  print(nama);
+  print(nama.length);
+  print(nama.add("Arridoh"));
+  print(nama.remove("Salwan"));
+  print(nama);
+}
